@@ -7,27 +7,27 @@ function myFunction() {
     }
 }
 
-window.onload = function () {
-
-var dps = []; // dataPoints
-var chart = new CanvasJS.Chart("#chartContainer") {
-	title :{
-		text: "Exchange Rate"
-	},
-	axisY: {
-		includeZero: false
-	},
-	data: [{
-		type: "line",
-		dataPoints: dps
-	}]
-});
-
-var xVal = 0;
-var yVal = 100;
-var updateInterval = 1000;
-var dataLength = 20; // number of dataPoints visible at any point
-
-var updateChart = function (count) {
-
-	count = count || 1;
+// window.onload = function () {
+//
+// var dps = []; // dataPoints
+// var chart = new CanvasJS.Chart("#chartContainer") {
+// 	title :{
+// 		text: "Exchange Rate"
+// 	},
+// 	axisY: {
+// 		includeZero: false
+// 	},
+// 	data: [{
+// 		type: "line",
+// 		dataPoints: dps
+// 	}]
+// });
+//
+// var xVal = 0;
+// var yVal = 100;
+// var updateInterval = 1000;
+// var dataLength = 20; // number of dataPoints visible at any point
+//
+// var updateChart = function (count) {
+//
+// 	count = count || 1;

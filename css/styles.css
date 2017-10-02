@@ -56,20 +56,31 @@
 
 }
 
-#items {
-  height: 680px;
-  z-index: 1px;
-}
-
-#webpage {
-  margin: -60px;
-}
-
-#chartContainer {
+/*#chartContainer {
   padding: 100px 100px;
-}
+}*/
 
 .footer {
   padding: 50px;
   background-color: #002159;
+  color: white;
+}
+
+.social {
+  padding: 14px 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+#fb {
+  padding-right: 50px;
+}
+
+#ig {
+  padding-left: 50px;
+}
+
+#copy {
+  text-align: center;
 }
