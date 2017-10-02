@@ -7,30 +7,27 @@ function myFunction() {
     }
 }
 
+window.onload = function () {
 
-var slideIndex = 1;
-showSlides(slideIndex);
+var dps = []; // dataPoints
+var chart = new CanvasJS.Chart("#chartContainer") {
+	title :{
+		text: "Exchange Rate"
+	},
+	axisY: {
+		includeZero: false
+	},
+	data: [{
+		type: "line",
+		dataPoints: dps
+	}]
+});
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+var xVal = 0;
+var yVal = 100;
+var updateInterval = 1000;
+var dataLength = 20; // number of dataPoints visible at any point
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+var updateChart = function (count) {
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+	count = count || 1;
