@@ -62,25 +62,57 @@
 
 .footer {
   padding: 50px;
+  padding-bottom: 0px;
   background-color: #002159;
   color: white;
 }
 
 .social {
-  padding: 14px 50px;
-  text-align: center;
-  font-size: 30px;
+  text-align: left;
+  float: right;
+  font-size: 18px;
   color: white;
+  padding-right: 250px;
+  padding-bottom: 30px;
+  /*padding-top: 50px;*/
 }
-
+/*
 #fb {
   padding-right: 50px;
 }
 
 #ig {
   padding-left: 50px;
-}
+}*/
 
 #copy {
   text-align: center;
+  padding-top: 300px;
+  font-size: 18px;
+
+}
+
+.contact {
+  text-align: left;
+  padding-left: 200px;
+  float: left;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+#email {
+  padding-right: 20px;
+}
+
+#phone {
+  padding-right: 20px;
+}
+
+#loca {
+  padding-right: 20px;
+}
+
+#space {
+  padding-left: 36px;
 }
