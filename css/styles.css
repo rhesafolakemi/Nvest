@@ -56,39 +56,64 @@
 
 }
 
+.table {
+  /*background-color: #6ae8b3;*/
+  border-color: #6ae8b3;
+  border: 1px ;
+  /*width: 50%;*/
+  /*overflow: hidden;
+  float: left;
+  width: 50%;*/
+  padding-left: 20px;
+  margin-left: 20px;
+
+}
+
+#topT {
+    background-color: #6ae8b3;
+}
+
+.scope {
+  background-color: #161957;
+}
+
+.part4 {
+  /*float: right;*/
+  width: 50%;
+  padding-right: 20px;
+  margin-right: 30px;
+  height: 480px;
+}
 /*#chartContainer {
   padding: 100px 100px;
 }*/
 
 .footer {
-  padding: 50px;
-  padding-bottom: 0px;
+  padding: 30px;
   background-color: #002159;
   color: white;
+  overflow: hidden;
+  height: 300px;
 }
 
 .social {
   text-align: left;
   float: right;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   padding-right: 250px;
-  padding-bottom: 30px;
+
   /*padding-top: 50px;*/
 }
-/*
-#fb {
-  padding-right: 50px;
-}
 
-#ig {
-  padding-left: 50px;
-}*/
+.fa-instagram {
+  padding-right: 10px;
+}
 
 #copy {
   text-align: center;
-  padding-top: 300px;
-  font-size: 18px;
+  padding-top: 250px;
+  font-size: 14px;
 
 }
 
@@ -96,9 +121,9 @@
   text-align: left;
   padding-left: 200px;
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
-  padding-bottom: 30px;
+
 }
 
 #email {
