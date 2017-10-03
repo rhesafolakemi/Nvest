@@ -61,9 +61,9 @@
   border-color: #6ae8b3;
   border: 1px ;
   /*width: 50%;*/
-  /*overflow: hidden;
-  float: left;
-  width: 50%;*/
+  overflow: hidden;
+  /*float: left;*/
+  width: 50%;
   padding-left: 20px;
   margin-left: 20px;
 
@@ -71,6 +71,10 @@
 
 #topT {
     background-color: #6ae8b3;
+}
+
+#ER {
+  color: #002159;
 }
 
 .scope {
@@ -88,6 +92,22 @@
   padding: 100px 100px;
 }*/
 
+/*.body {
+  background-color: #333333;
+}*/
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 580px;
+  height: 380px;
+  padding: 50px;
+}
+
 .footer {
   padding: 30px;
   background-color: #002159;
@@ -99,9 +119,9 @@
 .social {
   text-align: left;
   float: right;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
-  padding-right: 250px;
+  padding-right: 330px;
 
   /*padding-top: 50px;*/
 }
@@ -119,9 +139,9 @@
 
 .contact {
   text-align: left;
-  padding-left: 200px;
+  padding-left: 330px;
   float: left;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 
 }
