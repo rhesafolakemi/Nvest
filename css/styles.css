@@ -246,3 +246,55 @@
   color: #002159;
   font-size: 20px;
 }
+
+
+/*FirstBanc*/
+
+.products {
+  padding: 20px 80px 0 80px;
+}
+
+.product1 {
+  background-color: red;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.logo {
+  padding: 20px 0 0 30px;
+}
+
+.history {
+  padding: 20px 30px 0 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.part1 {
+  margin-top: 40px;
+}
+
+.rates {
+  font-size: 15px;
+  padding-right: 50px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 18px;
+  float: left;
+}
+
+.rating>span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating>span:hover:before, .rating>span:hover~span:before {
+  content: "\2605";
+  position: absolute;
+}
