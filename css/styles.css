@@ -183,20 +183,23 @@
 .picture1 {
   float: left;
   width: 30%;
-  padding: 20px 0 0 10px;
+  padding: 20px 0 0 60px;
 }
 
 .img-circle {
   border-radius: 50%;
+  border: 3px solid #002159;
 }
 
 #james {
-  padding: 0 0 0 65px;
+  padding: 0 0 0 55px;
+  color: #002159;
+  font-size: 20px;
 }
 
 .text1 {
   width: 90%;
-  color: black;
+  color: #002159;
   position: relative;
   padding: 40px 0 0 0;
   text-align: left;
@@ -211,18 +214,20 @@
 
 .picture2 {
   float: right;
-  width: 30%;
+  width: 35%;
   padding: 0px 10px 0 10px;
   margin-top: -190px;
 }
 
 #rhesa {
-  padding: 0 0 0 55px;
+  padding: 0 0 0 45px;
+  color: #002159;
+  font-size: 20px;
 }
 
 .text2 {
   width: 60%;
-  color: black;
+  color: #002159;
   position: relative;
   padding: 40px 0 0 0;
   text-align: right;
@@ -231,9 +236,13 @@
 }
 
 #mustapha {
-  padding: 0 0 0 30px;
+  padding: 0 0 0 15px;
+  color: #002159;
+  font-size: 20px;
 }
 
 #adjo {
-  padding: 0 0 0 65px;
+  padding: 0 0 0 60px;
+  color: #002159;
+  font-size: 20px;
 }
