@@ -251,7 +251,7 @@
 /*FirstBanc*/
 
 .all {
-  background-image: url("../images/background.jpg");
+  /*background-image: url("../images/background.jpg");*/
   width: 100%;
   font-family: 'Roboto Slab', serif;
   font-size: 120%;
@@ -318,4 +318,18 @@
 .rating>span:hover:before, .rating>span:hover~span:before {
   content: "\2605";
   position: absolute;
+}
+
+
+/*Compare Page*/
+.compare {
+  margin: 20px;
+}
+
+tr {
+  border: 1px solid #bbb;
+}
+
+td {
+  border: 1px solid #bbb;
 }

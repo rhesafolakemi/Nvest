@@ -8,29 +8,32 @@ function myFunction() {
 }
 
 
-var slideIndex = 1;
-showSlides(slideIndex);
+//javascript for search page
+var item1 = "this is for Mutual funds";
+var item2 = "this is for fund mgt";
+var item3 = "this is for Wealth mgt";
+//User interface
+$(document).ready(function () {
+  $("button#search1").click(function(){
+    event.preventDefault();
+    if ($("#usr1").val()==="Mutual Fund"){
+      $("#product1").append(item1);
+    }else if($("#usr1").val()==="Wealth Management"){
+      $("#product1").append(item2);
+    }else if ($("#usr1").val()==="Fund management") {
+      $("#product1").append(item3);
+    }
+    });
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+    $("button#search2").click(function(){
+      event.preventDefault();
+      $( "#usr2" ).autocomplete( "option", "appendTo", "#someElem" );
+      if ($("#usr2").val()==="Mutual Fund"){
+        $("#product2").append(item1);
+      }else if($("#usr2").val()==="Wealth Management"){
+        $("#product2").append(item2);
+      }else if ($("#usr2").val()==="Fund management") {
+        $("#product2").append(item3);
+      }
+    });
+});

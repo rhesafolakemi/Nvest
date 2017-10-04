@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container compare">
       <div class="description col-md-2">
           <h4>Compare products of companies</h4>
       </div>
@@ -19,8 +19,8 @@
         <form>
           <div class="form-inline">
             <label for="usr">Search for:</label>
-            <input type="text" class="form-control" id="usr1">
-            <button type="button" class="btn btn-default">Search</button>
+            <input type="text" class="form-control" id="usr1"></input>
+            <button id="search1" type="button" class="btn btn-default">Search</button>
           </div>
         </form>
       </div>
@@ -29,8 +29,8 @@
         <form>
           <div class="form-inline">
             <label for="usr">Search for:</label>
-            <input type="text" class="form-control" id="usr2">
-            <button type="button" class="btn btn-default">Search</button>
+            <input type="text" class="form-control" id="usr2"></input>
+            <button id="search2" type="button" class="btn btn-default">Search</button>
           </div>
         </form>
       </div>
@@ -40,20 +40,26 @@
         <table style="width:100%">
           <tr>
             <td class="col-md-2"><p>Product:</p></td>
-            <td class="col-md-5"><p>Product:</p></td>
-            <td class="col-md-5"><p>Product:</p></td>
+            <td id="product1"class="col-md-5"><p></p></td>
+            <td id="product2" class="col-md-5"><p></p></td>
           </tr>
 
           <tr>
-            <td><p>Product description:</p></td>
+            <td class="col-md-2"><p>Product description:</p></td>
+            <td id="descr1" class="col-md-5"><p></p></td>
+            <td id="descr2" class="col-md-5"><p></p></td>
           </tr>
 
           <tr>
-            <td><p>Product Benefits:</p></td>
+            <td class="col-md-2"><p>Product Benefits:</p></td>
+            <td id="benefits1" class="col-md-5"><p></p></td>
+            <td id="benefits2" class="col-md-5"><p></p></td>
           </tr>
 
           <tr>
-            <td><p>Company History:</p></td>
+            <td class="col-md-2"><p>Company History:</p></td>
+            <td id="history1" class="col-md-5"><p></p></td>
+            <td id="history2" class="col-md-5"><p></p></td>
           </tr>
         </table>
       </div>
