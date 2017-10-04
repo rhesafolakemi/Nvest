@@ -529,3 +529,134 @@
         margin-left: 35px;
         background-color: #337ab7;
       }
+      /*CDH*/
+
+      .all {
+        /*background-image: url("../images/5b7e4174c82db26e5beedad2e6f3407d--powerpoint-presentation-background-cool-powerpoint.jpg");*/
+        width: 100%;
+        font-family: 'Roboto Slab', serif;
+        font-size: 120%;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .productsA {
+        padding: 40px 40px 40px 80px;
+      }
+
+      .productsA img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      #collective:hover {
+        transition: 2;
+        transform: scale(1.1);
+        overflow: hidden;
+        opacity: 0.6;
+      }
+
+      #asset:hover {
+        transform: scale(1.1);
+        overflow: hidden;
+        opacity: 0.6;
+      }
+
+      .productsA .col-md-4 {
+        background-color: white;
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 10px;
+        text-align: justify;
+      }
+
+      .logo2 {
+        padding: 20px 10px 0px 70px;
+        border-radius: 5px;
+        margin: 10px 0px 0px 40px;
+        height: 200px;
+        width: auto;
+      }
+
+      .history {
+        padding: 20px 30px 0 20px;
+        background-color: white;
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        margin-top: 30px;
+      }
+
+      .part1 {
+        margin: 40px 0 40px 15px;
+        text-align: justify;
+      }
+
+      .rates {
+        font-size: 15px;
+        padding-right: 50px;
+        margin-top: 15px;
+      }
+
+      .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        font-size: 18px;
+        float: left;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 50px;
+      }
+
+      .rating>span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+      }
+
+      .rating>span:hover:before, .rating>span:hover~span:before {
+        content: "\2605";
+        position: absolute;
+      }
+
+      #name1 {
+        margin-bottom: 15px;
+        border-radius: 5px;
+        font-size: 15px;
+        width: 320px;
+        padding-left: 5px;
+        background-color: lightgrey;
+      }
+
+      #email1 {
+        margin-bottom: 15px;
+        border-radius: 5px;
+        font-size: 15px;
+        width: 320px;
+        padding-left: 5px;
+        background-color: lightgrey;
+      }
+
+      #body1 {
+        border-radius: 5px;
+        font-size: 15px;
+        width: 320px;
+        padding-left: 5px;
+        background-color: lightgrey;
+      }
+
+      #submit1 {
+        font-size: 20px;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+
+      #addCommentContainer1 {
+        padding: 15px;
+        margin-left: 20px;
+      }
+
+      .btn-info {
+        margin-left: 35px;
+        background-color: #337ab7;
+      }
