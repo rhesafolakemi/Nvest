@@ -27,7 +27,6 @@ $(document).ready(function () {
 
     $("button#search2").click(function(){
       event.preventDefault();
-      $( "#usr2" ).autocomplete( "option", "appendTo", "#someElem" );
       if ($("#usr2").val()==="Mutual Fund"){
         $("#product2").append(item1);
       }else if($("#usr2").val()==="Wealth Management"){
