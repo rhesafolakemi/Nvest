@@ -14,8 +14,7 @@
 }
 
 #myTopnar {
-  padding-left:20px;
-
+  padding-left: 20px;
 }
 
 .topnav a:hover {
@@ -28,7 +27,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -36,7 +37,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -47,12 +50,15 @@
     display: block;
     text-align: left;
   }
-
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
+
 
 /* Slideshow container */
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -60,10 +66,12 @@
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
+
 /* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -78,18 +86,24 @@
   border-radius: 0 3px 3px 0;
 }
 
+
 /* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+
 /* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
+
 /* Caption text */
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -100,7 +114,9 @@
   text-align: center;
 }
 
+
 /* Number text (1/3 etc) */
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -109,9 +125,11 @@
   top: 0;
 }
 
+
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor:pointer;
+  cursor: pointer;
   height: 13px;
   width: 13px;
   margin: 0 2px;
@@ -125,7 +143,9 @@
   background-color: #717171;
 }
 
+
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -134,11 +154,168 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+
+/*About-us page*/
+
+.picture-text1 {
+  width: 100%;
+  height: 300px;
+  padding: 30px 0 0 150px;
+}
+
+.picture1 {
+  float: left;
+  width: 30%;
+  padding: 20px 0 0 60px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 3px solid #002159;
+}
+
+#james {
+  padding: 0 0 0 55px;
+  color: #002159;
+  font-size: 20px;
+}
+
+.text1 {
+  width: 90%;
+  color: #002159;
+  position: relative;
+  padding: 40px 0 0 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+.picture-text2 {
+  width: 100%;
+  height: 300px;
+  padding: 30px 0px 0 150px;
+}
+
+.picture2 {
+  float: right;
+  width: 35%;
+  padding: 0px 10px 0 10px;
+  margin-top: -190px;
+}
+
+#rhesa {
+  padding: 0 0 0 45px;
+  color: #002159;
+  font-size: 20px;
+}
+
+.text2 {
+  width: 60%;
+  color: #002159;
+  position: relative;
+  padding: 40px 0 0 0;
+  text-align: right;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#mustapha {
+  padding: 0 0 0 15px;
+  color: #002159;
+  font-size: 20px;
+}
+
+#adjo {
+  padding: 0 0 0 60px;
+  color: #002159;
+  font-size: 20px;
+}
+
+
+/*FirstBanc*/
+
+.all {
+  background-image: url("../images/background.jpg");
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 120%;
+}
+
+.products {
+  padding: 40px 40px 40px 80px;
+}
+
+.products img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.products .col-md-3 {
+  background-color: white;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.logo {
+  padding: 20px 10px 20px 20px;
+  background: white;
+  border-radius: 5px;
+  margin: 30px 20px 20px 40px;
+}
+
+.history {
+  padding: 20px 30px 0 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.part1 {
+  margin: 40px 0 40px 0;
+  text-align: justify;
+}
+
+.rates {
+  font-size: 15px;
+  padding-right: 50px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+
+.rating>span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating>span:hover:before, .rating>span:hover~span:before {
+  content: "\2605";
+  position: absolute;
 }
