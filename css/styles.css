@@ -250,18 +250,42 @@
 
 /*FirstBanc*/
 
-.products {
-  padding: 20px 80px 0 80px;
+.all {
+  /*background-image: url("../images/5b7e4174c82db26e5beedad2e6f3407d--powerpoint-presentation-background-cool-powerpoint.jpg");*/
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 120%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.product1 {
-  background-color: red;
+.products {
+  padding: 40px 40px 40px 80px;
+}
+
+.products img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#mutual {
+  padding-left: 5px
+}
+
+.products .col-md-3 {
+  background-color: white;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
 }
 
 .logo {
-  padding: 20px 0 0 30px;
+  padding: 20px 10px 20px 20px;
+  background: white;
+  border-radius: 5px;
+  margin: 30px 20px 20px 40px;
 }
 
 .history {
@@ -273,12 +297,14 @@
 }
 
 .part1 {
-  margin-top: 40px;
+  margin: 40px 0 40px 15px;
+  text-align: justify;
 }
 
 .rates {
   font-size: 15px;
   padding-right: 50px;
+  margin-top: 15px;
 }
 
 .rating {
@@ -286,6 +312,9 @@
   direction: rtl;
   font-size: 18px;
   float: left;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 50px;
 }
 
 .rating>span {
@@ -297,4 +326,45 @@
 .rating>span:hover:before, .rating>span:hover~span:before {
   content: "\2605";
   position: absolute;
+}
+
+#name {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 250px;
+  padding-left: 5px;
+  background-color: lightgrey;
+}
+
+#email {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 250px;
+  padding-left: 5px;
+  background-color: lightgrey;
+}
+
+#body {
+  border-radius: 5px;
+  font-size: 15px;
+  width: 250px;
+  padding-left: 5px;
+  background-color: lightgrey;
+}
+
+#submit {
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px 40px 20px 0;
+}
+
+#addCommentContainer {
+  padding: 15px;
+}
+
+.btn-info {
+  margin-left: 15px;
+  background-color: #337ab7;
 }
