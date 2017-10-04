@@ -57,13 +57,57 @@
     display: block;
     text-align: left;
   }
-  #items{
-    height: 50%;
+
+  .carousel {
+    margin-bottom: 60px;
   }
 
-/*#item4 {
-  height: 50%;
-}*/
+  .carousel .container {
+    position: relative;
+    z-index: 9;
+    float: left;
+  }
+
+  .carousel-control {
+    height: 80px;
+    margin-top: 0;
+    font-size: 120px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    background-color: transparent;
+    border: 0;
+    z-index: 10;
+  }
+
+  .carousel .item {
+    height: 300px;
+  }
+  .carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 200px;
+  }
+
+
+  .carousel-caption {
+  background-color: transparent;
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-top: 150px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+
 
 .table {
   /*background-color: #6ae8b3;*/
@@ -215,25 +259,24 @@
 }
 
 
-/*.footer {
+.footer {
   padding: 30px;
   background-color: #002159;
   color: white;
   overflow: hidden;
   height: 300px;
-}*/
+}
 
-/*.social {
+.social {
   text-align: left;
   float: right;
   font-size: 14px;
   color: white;
   padding-right: 330px;
+  padding-top: 50px;
+}
 
-  /*padding-top: 50px;*/
-}*/
-
-/*.fa-instagram {
+.fa-instagram {
   padding-right: 10px;
 }
 
@@ -242,17 +285,17 @@
   padding-top: 250px;
   font-size: 14px;
 
-}*/
+}
 
-/*.contact {
+.contact {
   text-align: left;
   padding-left: 330px;
   float: left;
   font-size: 14px;
   color: white;
-}*/
+}
 
-/*#email {
+#email {
   padding-right: 20px;
 }
 
@@ -266,4 +309,4 @@
 
 #space {
   padding-left: 36px;
-}*/
+}
