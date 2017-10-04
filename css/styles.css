@@ -416,7 +416,7 @@
       }
 
       #bfund:hover {
-        transform: sacle(1.1);
+        transform: scale(1.1);
         overflow: hidden;
         opacity: 0.6;
       }
@@ -439,11 +439,13 @@
         text-align: justify;
       }
 
-      .logo {
-        padding: 20px 10px 20px 20px;
-        background: white;
+      .logo1 {
+        padding: 20px 10px 20px 50px;
+        /*background: white;*/
         border-radius: 5px;
-        margin: 30px 20px 20px 40px;
+        margin: 10px 20px 20px 40px;
+        height: 200px;
+        width: auto;
       }
 
       .history {
@@ -515,6 +517,7 @@
       #submit1 {
         font-size: 20px;
         border-radius: 5px;
+        margin-top: 10px;
       }
 
       #addCommentContainer1 {
