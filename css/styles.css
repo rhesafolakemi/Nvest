@@ -33,6 +33,10 @@
   display: none;
 }
 
+#rectangle {
+  background-color: #161957;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -53,12 +57,17 @@
     display: block;
     text-align: left;
   }
+  #items{
+    height: 50%;
+  }
 
-}
+/*#item4 {
+  height: 50%;
+}*/
 
 .table {
   /*background-color: #6ae8b3;*/
-  border-color: #6ae8b3;
+  border-color: #ace242;
   border: 1px ;
   /*width: 50%;*/
   overflow: hidden;
@@ -70,7 +79,7 @@
 }
 
 #topT {
-    background-color: #6ae8b3;
+    background-color: #ace242;
 }
 
 #ER {
@@ -107,11 +116,15 @@
 #text-carousel {
   width: 480px;
   height: 280px;
-  background-color: #6ae8b3;
+  background-color: #ace242;
   margin-left: 50px;
-
 }
 
+.carousel-inner {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
 .col-xs-6 {
   width: 100%;
   margin-left: 0%;
@@ -119,13 +132,13 @@
 }
 
 .contact{
-    background: url(../images/money.jpg) no-repeat center top fixed;
+    background: url(../images/slidebar/exchange-traded-fund.jpg) no-repeat center top fixed;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     width: 100%;
-    height: 50%;
+    height: 40%;
     overflow: hidden;
     padding-top: 30px;
     padding-bottom: 30px;
