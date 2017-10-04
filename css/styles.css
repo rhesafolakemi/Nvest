@@ -1,7 +1,7 @@
 .topnav {
   overflow: hidden;
   background-color: #002159;
-  padding: 20px;
+  padding: 10px;
 }
 
 .topnav a {
@@ -63,9 +63,9 @@
   /*width: 50%;*/
   overflow: hidden;
   /*float: left;*/
-  width: 50%;
+  width: 100%;
   padding-left: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 
 }
 
@@ -100,23 +100,117 @@
     color:black;
     display:flex;
     align-items:center;
+    text-align: center;
+    padding: 40px;
 }
 
 #text-carousel {
-  width: 580px;
-  height: 380px;
-  padding: 50px;
+  width: 480px;
+  height: 280px;
+  background-color: #6ae8b3;
+  margin-left: 50px;
+
+}
+
+.col-xs-6 {
+  width: 100%;
+  margin-left: 0%;
+  padding-top: 20px;
+}
+
+.contact{
+    background: url(../images/money.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-area{
+    background: rgba(79, 50, 68, .7);
+    padding:60px 40px 247px 40px;
+    color:#fff;
+    margin-top: 25px;
+}
+.contact-wrapper h4{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:26px;
+    font-family: 'Poppins' sans-serif;
+    font-weight:600;
+    margin-bottom:50px;
+}
+
+.contact-address {
+    background: rgba(55, 38, 57, 0.64);
+    /*padding:60px 40px;*/
+    /*font-size: 16px;*/
+    margin-top: 25px;
+    background: transparent;
+    margin-bottom:25px;
+    float: left;
+}
+
+.contact-details{
+    background: rgba(55, 38, 57, 0.64);
+    padding:60px 40px;
+    color:#fff;
+    margin-bottom:25px;
+    margin-top: 25px;
+    text-align: left;
+}
+.contact-details h4{
+    margin-bottom:25px;
+}
+.contact-details p{
+    margin: 0 0 10px;
+    color:#c3bec2;
 }
 
 .footer {
+    padding-top:60px;
+    padding-bottom:60px;
+    color:#fff;
+    background:#002159;
+}
+
+.main-footer .social{
+    margin-bottom:10px;
+}
+.main-footer .social a{
+    color:#c3bec2;
+    font-size:15px;
+}
+.main-footer .social a:hover{
+    color:#ff2b4a;
+}
+.main-footer .social a i{
+    border-right:1px solid #c3bec2;
+    padding:0 10px 0 10px;
+}
+.main-footer .social a i.dribbble{
+    border-right:0;
+}
+.main-footer p{
+    color:#c3bec2;
+    font-size:12px;
+}
+
+
+/*.footer {
   padding: 30px;
   background-color: #002159;
   color: white;
   overflow: hidden;
   height: 300px;
-}
+}*/
 
-.social {
+/*.social {
   text-align: left;
   float: right;
   font-size: 14px;
@@ -124,9 +218,9 @@
   padding-right: 330px;
 
   /*padding-top: 50px;*/
-}
+}*/
 
-.fa-instagram {
+/*.fa-instagram {
   padding-right: 10px;
 }
 
@@ -135,18 +229,17 @@
   padding-top: 250px;
   font-size: 14px;
 
-}
+}*/
 
-.contact {
+/*.contact {
   text-align: left;
   padding-left: 330px;
   float: left;
   font-size: 14px;
   color: white;
+}*/
 
-}
-
-#email {
+/*#email {
   padding-right: 20px;
 }
 
@@ -160,4 +253,4 @@
 
 #space {
   padding-left: 36px;
-}
+}*/
