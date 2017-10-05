@@ -34,10 +34,9 @@ body {
   background-color: #161957;
 }
 
-#logo {
-  /*padding: 14px 30px;*/
-  height: 80px;
-  width: 150px;
+.navbar-brand {
+  height: 100px;
+  width: auto;
 }
 
 #subscribe {
@@ -201,90 +200,47 @@ body {
   margin-bottom: 25px;
   float: left;
 }
-.contact-details {
-  background: rgba(55, 38, 57, 0.64);
-  padding: 60px 40px;
-  color: #fff;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  text-align: left;
-}
-.contact-details h4 {
-  margin-bottom: 25px;
-}
-.contact-details p {
-  margin: 0 0 10px;
-  color: #c3bec2;
-}
+
+
+
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  color: #fff;
-  background: #002159;
-}
-.main-footer .social {
-  margin-bottom: 10px;
-}
-.main-footer .social a {
-  color: #c3bec2;
-  font-size: 15px;
-}
-.main-footer .social a:hover {
-  color: #ff2b4a;
-}
-.main-footer .social a i {
-  border-right: 1px solid #c3bec2;
-  padding: 0 10px 0 10px;
-}
-.main-footer .social a i.dribbble {
-  border-right: 0;
-}
-.main-footer p {
-  color: #c3bec2;
-  font-size: 12px;
-}
-.footer {
+  background-color: #161957;
   padding: 30px;
-  background-color: #002159;
-  color: white;
-  overflow: hidden;
-  height: 200px;
 }
-.social {
-  text-align: left;
-  float: right;
-  font-size: 14px;
-  color: white;
-  padding-right: 330px;
-  padding-top: 50px;
-}
-.fa-instagram {
-  padding-right: 10px;
-}
-#copy {
-  text-align: center;
-  padding-top: 250px;
-  font-size: 14px;
-}
-.contact {
+
+.us {
   text-align: left;
   padding-left: 330px;
   float: left;
   font-size: 14px;
   color: white;
 }
+
+.social {
+  text-align: left;
+  float: right;
+  color: white;
+}
 #email {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 #phone {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 #loca {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 #space {
   padding-left: 36px;
 }
+
+#copyright {
+  text-align: center;
+  color: white;
+  padding-top: 280px;
+  padding-left: 50px;
+}
+
 td {
   border: 1px solid #bbb;
 }
