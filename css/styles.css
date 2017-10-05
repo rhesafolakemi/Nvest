@@ -885,4 +885,19 @@ td {
   margin-left: 35px;
   background-color: #337ab7;
 }
+
+/*comparative-advantage-page*/
+.jumbotron {
+  margin: 40px 0 40px 0;
+}
+.list {
+  padding: 0 0 0 60px;
+}
+#instructions {
+  margin: 0px 0 20px 0;
+  padding: 0 0 0 60px;
+}
+.compare .description h4 {
+  color: white;
+}
 >>>>>>>25b713c4fb82163616b170e287d32e27c9678d07
