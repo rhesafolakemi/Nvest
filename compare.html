@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
   <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
@@ -17,6 +17,51 @@
 </head>
 
 <body>
+  <div class="container-fluid">
+    <!-- TradingView Widget BEGIN -->
+    <span id="tradingview-copyright"><a ref="nofollow noopener" target="_blank" href="http://www.tradingview.com" style="color: rgb(173, 174, 176); font-family: &quot;Trebuchet MS&quot;, Tahoma, Arial, sans-serif; font-size: 13px;">Quotes by <span style="color: #3BB3E4">TradingView</span></a>
+    </span>
+    <script src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js">
+      {
+        "symbols": [{
+            "proName": "INDEX:SPX",
+            "title": "S&P 500"
+          },
+          {
+            "proName": "INDEX:IUXX",
+            "title": "Nasdaq 100"
+          },
+          {
+            "proName": "FX_IDC:EURUSD",
+            "title": "EUR/USD"
+          },
+          {
+            "proName": "NYMEX:CL1!",
+            "title": "Crude Oil"
+          },
+          {
+            "proName": "FX_IDC:XAUUSD",
+            "title": "Gold"
+          }
+        ],
+        "locale": "en"
+      }
+    </script>
+    <!-- TradingView Widget END -->
+  </div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h2 id="instructions">Follow these easy steps to compare different products;</h2>
+      <ol>
+        <div class="list">
+          <h5><i class="fa fa-hand-o-right" aria-hidden="true"></i> Type the name of the first product inside the search area on your left and 'Enter'.</h5>
+          <h5><i class="fa fa-hand-o-right" aria-hidden="true"></i> Follow by typing the name of the second product inside the search area on your right. Click 'Enter'.</h5>
+          <h5><i class="fa fa-hand-o-right" aria-hidden="true"></i> Viola! Details of your chosen products should appear in the table provided.</h5></div>
+      </ol>
+    </div>
+  </div>
+
 
   <nav class="navbar navbar-default">
     <div class="container-fluid topmenu">
@@ -46,17 +91,16 @@
       </div>
     </div>
   </nav>
-
   <div class="container compare">
     <div class="description col-md-2">
-      <h4>Compare products of companies</h4>
+      <h4 id="invisible">Compare products</h4>
     </div>
     <div class="col-md-5">
       <form>
         <div class="form-inline">
-          <label for="usr">Search for:</label>
+          <label for="usr"><i class="fa fa-search" aria-hidden="true"></i></label>
           <input type="text" class="form-control" id="usr1"></input>
-          <button id="search1" type="button" class="btn btn-default">Search</button>
+          <button id="search1" type="button" class="btn btn-success" style="background-color:#337ab7; border-color:#337ab7">Enter</button>
         </div>
       </form>
     </div>
@@ -64,15 +108,15 @@
     <div class="col-md-5">
       <form>
         <div class="form-inline">
-          <label for="usr">Search for:</label>
+          <label for="usr"><i class="fa fa-search" aria-hidden="true"></i></label>
           <input type="text" class="form-control" id="usr2"></input>
-          <button id="search2" type="button" class="btn btn-default">Search</button>
+          <button id="search2" type="button" class="btn btn-success" style="background-color:#337ab7; border-color:#337ab7">Enter</button>
         </div>
       </form>
     </div>
 
 
-    <div id="specs" class="result1" style="margin-top:10%">
+    <div id="specs" class="result1" style="margin-top:10%; margin-bottom: 40px;">
       <table style="width:100%">
         <tr>
           <td class="col-md-2">
@@ -127,7 +171,7 @@
 
 
 
-  <button type="button" id="subscribe" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Subscribe to newsletters</button>
+  <button type="button" id="subscribe" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal" style="border-color:#d9534f">Subscribe to newsletters</button>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -142,7 +186,7 @@
           <form>
             <div class="form-group">
               <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control" id="Fullname">
             </div>
             <div class="form-group">
               <label for="usr">Fullname:</label>
@@ -151,14 +195,13 @@
           </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myNewModal">Subscribe</button>
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myNewModal">Subscribe</button>
         </div>
       </div>
       <div class="modal fade" id="myNewModal" role="dialog">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
               <h4 class="modal-title">Successfully subscribed</h4>
