@@ -8,6 +8,7 @@ function myFunction() {
 }
 
 
+
 //javascript for search page
 var item1 = "this is for Mutual funds";
 var item2 = "this is for fund mgt";
