@@ -904,4 +904,8 @@ td {
 .compare .description h4 {
   color: white;
 }
+.modal-header {
+  background-color: #d9534f;
+  color: white;
+}
 >>>>>>>25b713c4fb82163616b170e287d32e27c9678d07
