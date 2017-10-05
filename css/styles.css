@@ -462,6 +462,7 @@ td {
   padding: 0 0 0 40px;
   color: #002159;
   font-size: 20px;
+  margin-top: 20px;
 }
 .text1 {
   width: 90%;
@@ -486,6 +487,7 @@ td {
   padding: 0 0 0 20px;
   color: #002159;
   font-size: 20px;
+  margin-top: 20px;
 }
 .text2 {
   width: 60%;
@@ -500,11 +502,13 @@ td {
   padding: 0 0 0 5px;
   color: #002159;
   font-size: 20px;
+  margin-top: 20px;
 }
 #adjo {
   padding: 0 0 0 45px;
   color: #002159;
   font-size: 20px;
+  margin-top: 20px;
 }
 .media-body {
   padding-top: 50px;
