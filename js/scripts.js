@@ -36,4 +36,14 @@ $(document).ready(function () {
         $("#product2").append(item3);
       }
     });
+
+    $( ".selector" ).tabs({
+  active: 1;
+  // Getter
+var active = $( ".selector" ).tabs( "option", "active" );
+
+// Setter
+$( ".selector" ).tabs( "option", "active", 1 );
+});
+
 });

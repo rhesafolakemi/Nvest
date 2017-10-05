@@ -84,15 +84,57 @@ body {
   }*/
 }
 
-#compareimg {
-  bottom: 0;
-  right: 1000px;
+.carouselimage{
+  position:absolute;
+  right:70%;
+  bottom:20px;
+  left:10%;
+  z-index:10;
+  padding-top:20px;
+  padding-bottom:20px;
+  color:red;
+  text-align:left;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
 }
 
-.item {
-    display: none;
-    position: relative;
-    .transition(.1s ease-in-out left);
+.part2 .carouselimage1 {
+  text-align: right;
+  color:red;
+  right:10%;
+  bottom:20%;
+  left:70%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.part2 .carouselimage2 {
+  text-align: right;
+  color:red;
+  right:20%;
+  bottom:20%;
+  left:60%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.part2 .carouselimage3 {
+  text-align: right;
+  color:red;
+  right:20%;
+  bottom:20%;
+  left:60%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.part2 .carouselimage4 {
+  text-align: center;
+  color:red;
+  right:60%;
+  bottom:70%;
+  left:20%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
 }
 
 .part2 {
