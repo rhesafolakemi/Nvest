@@ -32,10 +32,22 @@ body {
 .topmenu {
   background-color: #161957;
 }
+#bar {
+  margin-top: 15px;
+}
+
+#home {
+  padding: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
 
 .navbar-brand {
-  height: 100px;
-  width: auto;
+  height: 130px;
+  width: 230px;
+  padding-left: 100px;
+  margin-left: 50px;
 }
 
 #subscribe {
@@ -83,15 +95,57 @@ body {
   }*/
 }
 
-#compareimg {
-  bottom: 0;
-  right: 1000px;
+.carouselimage{
+  position:absolute;
+  right:70%;
+  bottom:20px;
+  left:10%;
+  z-index:10;
+  padding-top:20px;
+  padding-bottom:20px;
+  color:red;
+  text-align:left;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
 }
 
-.item {
-    display: none;
-    position: relative;
-    .transition(.1s ease-in-out left);
+.part2 .carouselimage1 {
+  text-align: right;
+  color:red;
+  right:10%;
+  bottom:20%;
+  left:70%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.part2 .carouselimage2 {
+  text-align: right;
+  color:red;
+  right:20%;
+  bottom:20%;
+  left:60%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.part2 .carouselimage3 {
+  text-align: right;
+  color:red;
+  right:20%;
+  bottom:20%;
+  left:60%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.part2 .carouselimage4 {
+  text-align: center;
+  color:red;
+  right:60%;
+  bottom:70%;
+  left:20%;
+  font-size: 200%;
+  text-shadow:0 1px 2px rgba(0,0,0,.6);
 }
 
 .part2 {
@@ -108,7 +162,31 @@ body {
   width: 100%;
   padding-left: 20px;
   margin-left: 40px;
+}
 
+.description {
+  text-align: center;
+  text-shadow: 3px;
+}
+
+.blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+  padding-left: 30px;
+}
+
+#quotesbox{
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    margin-top: 25px;
+    color:white;
+    width: 500px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+}
+
+.blockquote .p {
+  display: inline;
 }
 
 #topT {
@@ -130,38 +208,38 @@ body {
   margin-right: 30px;
   height: 480px;
 }
-/*#chartContainer {
-  padding: 100px 100px;
-}*/
 
-/*.body {
-  background-color: #333333;
-}*/
-
-.carousel-content {
+/*.carousel-content {
     color:black;
     display:flex;
     align-items:center;
-    text-align: center;
-    padding: 40px;
-}
+}*/
 
 #text-carousel {
-  width: 480px;
-  height: 280px;
+  width: 100%;
+  height: 25%;
   background-color: #ace242;
-  margin-left: 50px;
 }
 
 .carousel-inner {
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  height: 350px;
 }
-.col-xs-6 {
+
+.carousel-control {
+  width: 20px;
+}
+
+.carousel-content{
+  background-color: #ace242;
+  text-align: center;
+  height: 25%;
   width: 100%;
-  margin-left: 0%;
-  padding-top: 20px;
+  color: black;
+}
+
+#tradingview-copyright {
+  padding-left: 50px;
 }
 
 .contact{
@@ -906,4 +984,3 @@ td {
         margin-left: 35px;
         background-color: #337ab7;
       }
->>>>>>> 25b713c4fb82163616b170e287d32e27c9678d07
