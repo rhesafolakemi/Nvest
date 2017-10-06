@@ -55,24 +55,27 @@ body {
   z-index:10;
   padding-top:20px;
   padding-bottom:20px;
-  color:red;
+  color:#6ae8b3;
   text-align:left;
   text-shadow:0 1px 2px rgba(0,0,0,.6);
 }
 
 .part2 .carouselimage1 {
   text-align: right;
-  color:red;
+  color:#6ae8b3;
   right:10%;
   bottom:20%;
-  left:70%;
-  font-size: 200%;
+  left:50%;
+  font-size: 300%;
   text-shadow:0 1px 2px rgba(0,0,0,.6);
+  background-color: black;
+  /*background-color: */
+  /*background-size: height:40px, width:90px;*/
 }
 
 .part2 .carouselimage2 {
   text-align: right;
-  color:red;
+  color:#6ae8b3;
   right:20%;
   bottom:20%;
   left:60%;
@@ -82,7 +85,8 @@ body {
 
 .part2 .carouselimage3 {
   text-align: right;
-  color:red;
+  font-family: sans-serif;
+  color:#6ae8b3;
   right:20%;
   bottom:20%;
   left:60%;
@@ -92,7 +96,7 @@ body {
 
 .part2 .carouselimage4 {
   text-align: center;
-  color:red;
+  color: #6ae8b3;
   right:60%;
   bottom:70%;
   left:20%;
@@ -514,9 +518,12 @@ td {
   padding: 10px;
   text-align: justify;
 }
-.logo {
-  padding: 20px 10px 20px 20px;
-  background: white;
+#logo {
+  padding: 0px 0px 0px 50px;
+  font-style: oblique;
+  font-size: 300%;
+  font-weight: bold;
+  color: #6ae8b3;
   border-radius: 5px;
   margin: 30px 20px 20px 40px;
 }
