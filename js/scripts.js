@@ -140,6 +140,8 @@ $(document).ready(function () {
           $("#descr2").append(wealthMgt[1]);
           $("#benefits2").append(wealthMgt[0]);
           $("#history2").append(mutualFund[0]);
+      } else {
+        alert ("Product not found. Check spelling of product and use smaller case letters only")
       }
     });
 
